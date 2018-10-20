@@ -22,11 +22,11 @@ class App extends Component {
               options: {
                   /**
                    *
-                   * @param fromMonth str The starting month of the options format = "JAN","FEB"...
-                   * @param fromYear num The starting year of the options
+                   * @param fromMonth str The starting month of the options, default is "JAN" format = "JAN","FEB"...
+                   * @param fromYear num The starting year of the options, default is 1970
                    * @returns {{to: (function(*=, *): {using: {select: using.select}})}}
                    */
-                  from: (fromMonth, fromYear) => {
+                  from: (fromMonth = "JAN", fromYear = 1970) => {
                       return {
                           /**
                            *
