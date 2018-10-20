@@ -2,7 +2,7 @@
 
 This is a simple ReactJS component that allows you to spawn date options.
 
-##Usage:
+## Usage:
 
     please.render.options.from(_fromMonth_,_fromYear_).to(_toMonth_,_toYear_).using.select(_selectID_);
 
